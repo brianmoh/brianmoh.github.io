@@ -1,0 +1,336 @@
+/* Brian Oh Stylesheet */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+
+h1 {
+    font-family: 'open sans',arial,sans-serif;
+    font-size: 75px;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+body {
+    background:#300A24;
+    font-family: 'open sans',arial,sans-serif;
+    font-style: normal;
+    font-weight:100;
+    padding-top: 60px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+
+input[type=text], textarea {
+    padding:5px; 
+
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+
+.col-lg-12 {
+    padding-top: 24%;
+    color:white;
+}
+
+.date {
+    font-style:bold;
+    font-family:  "Arial Black", Gadget, sans-serif;
+}
+
+.points {
+    clear:left;
+    padding-bottom: 10px;
+}
+
+.slash {
+    font-size: 16px;
+    font-style:bold;
+    font-family: 'open sans',arial,sans-serif;
+    color:white;
+}
+
+
+#resume {
+    font-size: 16px;
+    font-style:bold;
+    font-family: 'open sans',arial,sans-serif;
+    color:white;
+    padding-left: 80px;
+ }
+
+#unList {
+    font-size: 16px;
+    font-family: 'open sans',arial,sans-serif;
+    color:#A8A8A8;
+    list-style:square !important;
+    padding-left: 100px;
+}
+
+.projectImg {
+    padding-top:1%;
+    padding-bottom:2%;
+    padding-right:90px;
+}
+
+.modal-open[style="padding-right: 17px;"] .navbar-fixed-top,
+.modal-open[style="padding-right: 17px;"] .navbar-fixed-bottom {
+    padding-right: 17px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 20px 0 20px;
+    border-bottom: none;
+}
+
+.modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+  padding-bottom:0 !important;
+}
+
+.modal-sm {
+    width: 450px !important;
+}
+
+#userBox {
+    padding-left: 30px;
+}
+
+#mailBox {
+    padding-left: 28px;
+}
+
+#messageBox {
+    padding-left: 65px;
+}
+
+.textBox {
+    width: 320px;
+    background-color: #EDEDED;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+#stretchIndex{
+  position: absolute;
+  width: 100%;
+  height: 91%;
+}
+
+#stretch {
+ position: absolute;
+ width: 100%;
+}
+
+#aboutFoot {
+  padding-bottom: 10px;
+}
+
+#aboutSub{
+    color: grey !important;
+    font-style: italic;
+    font-size: 55px;
+}
+
+#aboutHeader {
+    font-family: "Courier New", Courier, monospace;
+}
+
+#bodystuff {
+    margin:0;
+}
+
+a, a:focus, a:active 
+{
+    outline: none !important; 
+    box-shadow: none !important;
+}
+
+
+
+.navbar {
+   background:rgba(0,0,0,0,0.95);   /* for latest browsers */
+}
+
+.navbar-left > li > a {
+    font-size: 18px;
+    padding-top:20px;
+}
+
+ul.nav a {
+    font-family: 'open sans',arial,sans-serif;
+    color:white !important;
+}
+
+
+.navbar-left > li > a:hover, .fa:hover { 
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    text-decoration: none !important;
+}
+
+#resume:hover, .slash:hover {
+    color: #A8A8A8;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    text-decoration: none !important;
+}
+
+.subButton {
+    background:transparent;
+    border:none;
+}
+
+.fa-user{
+    padding-right:10px;
+}
+
+.fa-envelope{
+    padding-right:6px;
+}
+
+a.leftLinks:hover{
+    color: #A8A8A8 !important;
+}
+
+
+.fa-facebook-square:hover{
+    color: #A8A8A8 !important;
+}
+
+.fa-linkedin-square:hover{
+    color: #A8A8A8 !important;
+}
+
+.fa-tumblr-square:hover{
+    color: #A8A8A8 !important;
+}
+
+.fa-twitter-square:hover{
+    color: #A8A8A8 !important;
+}
+
+.fa-github:hover{
+    color: #A8A8A8 !important;
+}
+
+.modal-header {
+    height:55px !important;
+  margin:0;
+  padding-bottom:none !important; 
+ border-bottom: none !important;
+}
+
+.modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: none !important;
+}
+
+/* Project Image Hover */
+
+.hovereffect {
+  padding-top: 15px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.hovereffect a.info, .hovereffect h2 {
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.hovereffect:hover a.info, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}

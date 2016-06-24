@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Brian Oh's Webpage">
+    <meta name="author" content="Brian Oh">
+
+    <title>boh</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+   <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a class="leftLinks" class="MainNavText" id="MainNavHelp" href="index.html">.index</a>
+                    </li>
+                    <li>
+                        <a class="leftLinks" class="MainNavText" id="MainNavHelp" href="about.html">.about</a>
+                    </li>
+                    <li>
+                        <a class="leftLinks" class="MainNavText" id="MainNavHelp" href="projects.html">.projects</a>
+                    </li>
+                    <li>
+                        <!-- <a class="leftLinks" href="mailto:oh.brian.m@gmail.com">contact</a> -->
+                        <a class="leftLinks" data-target="#contactModal" data-toggle="modal" class="MainNavText" id="MainNavHelp" href="#contactModal">.contact</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="fbicon" href="https://www.facebook.com/brianminwoooh" target="_blank"> <i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a class="linkedinicon" href="https://www.linkedin.com/in/brianmoh" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a class="twittericon" href="https://twitter.com/brianoh12" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a class="tumblricon" href="http://ohbrianoh.tumblr.com/" target="_blank"><i class="fa fa-tumblr-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a class="giticon" href="https://github.com/brianmoh" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contactModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title" style="text-align:center">Contact me.</h2>
+        </div>
+        <div class="modal-body">
+            <form name="htmlform" method="post" action="html_form_send.php">
+            <table width="425px">
+                <tr>
+                    <td valign="top" id="userBox">
+                        <span><i class="fa fa-user fa-2x"></i></span>
+                        <input class="textBox"  type="text" name="first_name" placeholder="Name" maxlength="50" size="50">
+                    </td>
+                </tr>
+             
+                <tr>
+                    <td valign="top" id="mailBox">
+                        <span><i class="fa fa-envelope fa-2x"></i></span>
+                        <input class="textBox" type="text" name="email" placeholder= "Email" maxlength="80" size="50">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td valign="top" id="messageBox">
+                        <textarea class="textBox" name="comments" placeholder="If my website is hosted on github, this doesn't work right now. E-mail me at oh.brian.m@gmail.com." maxlength="1000" cols="50" rows="6" ></textarea>
+                    </td>
+             
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:center">
+                        <button type="submit" class="subButton">
+                            <i class="fa fa-send fa-2x"></i>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Half Page Image Background Carousel Header -->
+    <header class ="page-header">
+        <img id = "stretch" src="headergif.gif"/>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container-fluid" id="bodystuff">
+        <div class="col-lg-12">
+             <h1 id="aboutHeader">Projects@<span id="aboutSub">really_cool_projects</span></h1>
+        </div>
+        <div class="row">
+            <div>
+
+            <!--
+
+                <div style="width:250px">
+                    <div class="hovereffect">
+                        <img class="img-responsive" src="http://placehold.it/250x250" alt="">
+                        <div class="overlay">
+                           <h2>Hover effect 3</h2>
+                           <a class="info" href="#">link here</a>
+                        </div>
+                    </div>
+                </div>
+                -->
+
+                <a href=""><span><img class="projectImg" alt="basicdb" style ="padding-left: 100px" src="http://placehold.it/250x250"></span></a>
+                <a href="https://github.com/brianmoh/GenderRecognitionAI"> <span> <img class="projectImg" alt="genderrec" src="http://placehold.it/250x250"> </span></a>
+                <a href="https://github.com/brianmoh/Connect4AI"> <span><img class="projectImg" alt="connect4" src="http://placehold.it/250x250"></span></a>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
