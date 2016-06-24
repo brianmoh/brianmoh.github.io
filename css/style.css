@@ -78,7 +78,7 @@ input[type=text], textarea {
 
 .projectImg {
     padding-top:1%;
-    padding-bottom:4%;
+    padding-bottom:3%;
     padding-right:90px;
 }
 
@@ -147,7 +147,7 @@ input[type=submit] {
 }
 
 #aboutFoot {
-  padding-bottom: 4%;
+  padding-bottom: 3%;
 }
 
 #aboutSub{
