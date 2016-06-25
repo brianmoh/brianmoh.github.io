@@ -69,7 +69,7 @@ input[type=text], textarea {
  }
 
 #unList {
-    font-size: 16px;
+    font-size: 0.8vw;
     font-family: 'open sans',arial,sans-serif;
     color:#A8A8A8;
     list-style:square !important;
@@ -100,7 +100,7 @@ input[type=submit] {
 }
 
 .page-header {
-    padding-bottom: 9px;
+    position:relative;
     margin: 20px 0 20px;
     border-bottom: none;
 }
@@ -141,7 +141,6 @@ input[type=submit] {
 #stretchIndex{
   position: absolute;
   width: 100%;
-  height: 91%;
 }
 
 #stretch {
@@ -160,7 +159,7 @@ input[type=submit] {
 }
 
 #aboutHeader {
-    padding-bottom:15px;
+    padding-bottom:0.6vw;
     font-family: "Courier New", Courier, monospace;
 }
 
@@ -213,6 +212,18 @@ ul.nav a {
 .subButton {
     background:transparent;
     border:none;
+}
+
+.ascii {
+  padding-bottom: 0;
+  top: 1400%;
+  left: 38%;
+  z-index:100;
+  position:absolute;
+  border:none;
+  font-size: 0.32vh;
+  color:white;
+  background: #300A24;
 }
 
 .fa-user{
