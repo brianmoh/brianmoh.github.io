@@ -184,6 +184,16 @@ a, a:focus, a:active
     padding-top:20px;
 }
 
+.navbar-right > li {
+  margin-top: 10px;
+  margin-right:28px;
+}
+
+.navbar-right > li > a{
+  border:none;
+}
+
+
 ul.nav a {
     font-family: 'open sans',arial,sans-serif;
     color:white !important;
@@ -239,19 +249,19 @@ a.leftLinks:hover{
 }
 
 
-.fa-facebook-square:hover{
+.fa-facebook:hover{
     color: #A8A8A8 !important;
 }
 
-.fa-linkedin-square:hover{
+.fa-linkedin:hover{
     color: #A8A8A8 !important;
 }
 
-.fa-tumblr-square:hover{
+.fa-tumblr:hover{
     color: #A8A8A8 !important;
 }
 
-.fa-twitter-square:hover{
+.fa-twitter:hover{
     color: #A8A8A8 !important;
 }
 
