@@ -173,7 +173,9 @@ a, a:focus, a:active
     box-shadow: none !important;
 }
 
-
+.btn.btn-social-icon {
+  border-radius:16px;
+}
 
 .navbar {
    background:rgba(0,0,0,0,0.95);   /* for latest browsers */
@@ -185,8 +187,8 @@ a, a:focus, a:active
 }
 
 .navbar-right > li {
-  margin-top: 10px;
-  margin-right:28px;
+  margin-top: 11px;
+  margin-right: 24px;
 }
 
 .navbar-right > li > a{
