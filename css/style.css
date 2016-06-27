@@ -178,7 +178,7 @@ a, a:focus, a:active
 }
 
 .navbar {
-   background:rgba(0,0,0,0,0.95);   /* for latest browsers */
+   background:rgba(0,0,0,0.45);   /* for latest browsers */
 }
 
 .navbar-left > li > a {
