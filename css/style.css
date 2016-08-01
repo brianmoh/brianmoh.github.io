@@ -18,6 +18,10 @@ h1 {
    margin: 0 !important;
 }
 
+footer {
+    margin-bottom: 0;
+}
+
 body {
     background:#300A24;
     font-family: 'open sans',arial,sans-serif;
