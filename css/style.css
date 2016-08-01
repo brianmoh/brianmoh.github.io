@@ -376,8 +376,10 @@ span.text-content {
     color:white;
     background: #300A24;
     max-width: 100%;
-    height: auto;
+    width: 220px;
     display:block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
     #stretchIndex{
@@ -453,12 +455,17 @@ span.text-content {
     display: inline-block;
     margin-right:0px;
     position: relative;
+    padding-bottom: 20px;
   }
 
   .navbar-right > li {
     margin-left:14px;
     margin-top: 11px;
     margin-right: 24px;
+  }
+
+  .projpics {
+    width: 70%;
   }
 
   footer {
