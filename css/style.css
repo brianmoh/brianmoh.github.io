@@ -276,17 +276,18 @@ ul.nav a {
 
 }
 
+
 .ascii {
   overflow: hidden;
   bottom:0;
   padding-bottom: 0;
-  left: 34%;
   z-index:100;
   position:absolute;
+  left: 34%;
   border:none;
-  font-size: 0.34vh;
   color:white;
   background: #300A24;
+  float: right;
 }
 
 .fa-user{
