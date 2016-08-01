@@ -24,7 +24,6 @@ body {
     font-style: normal;
     font-weight:100;
     padding-top: 60px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    padding-bottom: 20px;
 }
 
 
