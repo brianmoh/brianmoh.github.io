@@ -276,11 +276,26 @@ ul.nav a {
 
 }
 
+@media only screen and (max-width: 320px) {
+    .ascii {
+    overflow: hidden;
+    bottom:0;
+    padding-bottom: 0;
+    left: 12%;
+    z-index:100;
+    position:absolute;
+    border:none;
+    font-size: 0.34vh;
+    color:white;
+    background: #300A24;
+  }
+}
+
 .ascii {
   overflow: hidden;
   bottom:0;
   padding-bottom: 0;
-  left: 24%;
+  left: 34%;
   z-index:100;
   position:absolute;
   border:none;
