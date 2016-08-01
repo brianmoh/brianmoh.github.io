@@ -371,12 +371,12 @@ span.text-content {
     padding-bottom: 0;
     z-index:100;
     position:absolute;
-    left: 0%;
+    left: 10%;
     border:none;
     color:white;
     background: #300A24;
     max-width: 100%;
-    width: 220px;
+    width: 265px;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -410,7 +410,7 @@ span.text-content {
   }
 
     #aboutHeader {
-      padding-top:16px;
+      padding-top:10px;
       padding-bottom:none;
       font-size: 16px;
       font-family: "Courier New", Courier, monospace;
@@ -459,16 +459,26 @@ span.text-content {
   }
 
   .navbar-right > li {
-    margin-left:14px;
+    float: left;
     margin-top: 11px;
-    margin-right: 24px;
+    margin-right: 10px;
+    margin-left: 18px;
   }
+
+  .navbar-left > li > a {
+    margin-left:0;
+    font-size: 15px;
+    padding-top:20px;
+    float:left;
+  }
+
 
   .projpics {
     width: 70%;
   }
 
   footer {
-    margin-bottom:0;
+    display:block;
+    margin: auto;
   }
 }
