@@ -141,11 +141,13 @@ input[type=submit] {
 #stretchIndex{
   position: absolute;
   width: 100%;
+  height: auto;
 }
 
 #stretch {
  position: absolute;
  width: 100%;
+ height: auto;
 }
 
 #aboutFoot {
