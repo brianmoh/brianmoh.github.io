@@ -280,11 +280,11 @@ ul.nav a {
   overflow: hidden;
   bottom:0;
   padding-bottom: 0;
-  left: 38%;
+  left: 14%;
   z-index:100;
   position:absolute;
   border:none;
-  font-size: 0.34vh;
+  font-size: 0.32vh;
   color:white;
   background: #300A24;
 }
