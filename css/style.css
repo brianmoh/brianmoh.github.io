@@ -145,7 +145,7 @@ input[type=submit] {
 #stretchIndex{
   background-size: 100%;
   position: absolute;
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
