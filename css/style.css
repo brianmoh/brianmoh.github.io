@@ -276,6 +276,20 @@ ul.nav a {
 
 }
 
+@media only screen and (max-width:320px) {
+  .ascii {
+    overflow: hidden;
+    bottom:0;
+    padding-bottom: 0;
+    z-index:100;
+    position:absolute;
+    border:none;
+    color:white;
+    background: #300A24;
+    float: right;
+  }
+}
+
 
 .ascii {
   overflow: hidden;
