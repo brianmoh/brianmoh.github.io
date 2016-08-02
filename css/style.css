@@ -371,7 +371,7 @@ span.text-content {
     padding-bottom: 0;
     z-index:100;
     position:absolute;
-    left: 12%;
+    left: 10%;
     border:none;
     color:white;
     background: #300A24;
@@ -475,6 +475,29 @@ span.text-content {
 
   .projpics {
     width: 70%;
+  }
+
+  .modal-sm {
+    width: 300px !important;
+  }
+
+  #userBox {
+    padding-left: 18px;
+  }
+
+  #mailBox {
+      padding-left: 16px;
+  }
+
+  #messageBox {
+      padding-left: 55px;
+  }
+
+  .textBox {
+      width: 200px;
+      background-color: #EDEDED;
+      margin-bottom: 10px;
+      border-radius: 5px;
   }
 
   footer {
