@@ -419,7 +419,7 @@ span.text-content {
   #aboutSub{
     color: grey !important;
     font-style: italic;
-    font-size: 12px;
+    font-size: 14px;
 }
 
     #aboutFoot {
@@ -491,11 +491,11 @@ span.text-content {
   }
 
   #messageBox {
-      padding-left: 55px;
+      padding-left: 54px;
   }
 
   .textBox {
-      width: 200px;
+      width: 210px;
       background-color: #EDEDED;
       margin-bottom: 10px;
       border-radius: 5px;
