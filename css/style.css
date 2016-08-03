@@ -365,6 +365,9 @@ span.text-content {
 }
 
 @media only screen and (max-width:632px) {
+	.fa-send{
+    	text-align:center;
+	}
     .ascii {
     overflow: hidden;
     bottom:0;
@@ -479,7 +482,7 @@ span.text-content {
   }
 
   .modal-sm {
-    width: 300px !important;
+    width: 310px !important;
   }
 
   #userBox {
