@@ -287,8 +287,7 @@ ul.nav a {
   border:none;
   color:white;
   background: #300A24;
-  width: 100%;
-  max-width: 800px;
+  background-size: 0.5vh;
   height: auto;
   display:block;
 }
