@@ -287,7 +287,7 @@ ul.nav a {
   border:none;
   color:white;
   background: #300A24;
-  background-size: 0.5vh;
+  background-size: 0.7vh;
   height: auto;
   display:block;
 }
@@ -364,6 +364,7 @@ span.text-content {
   transition: opacity 500ms;
 }
 
+/* Stylesheet for phone */
 @media only screen and (max-width:632px) {
 	.fa-send{
     	text-align:center;
