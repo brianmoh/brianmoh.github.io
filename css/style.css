@@ -364,6 +364,24 @@ span.text-content {
   transition: opacity 500ms;
 }
 
+@media only screen and (min-device-width : 900px) {
+  .ascii {
+    overflow: hidden;
+    bottom:0;
+    padding-bottom: 0;
+    z-index:100;
+    position:absolute;
+    left: 45%;
+    border:none;
+    color:white;
+    background: #300A24;
+    width: 400px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* Stylesheet for phone */
 @media only screen and (max-width:632px) {
 	.fa-send{
