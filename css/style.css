@@ -364,7 +364,7 @@ span.text-content {
   transition: opacity 500ms;
 }
 
-@media only screen and (min-width: 960px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
   .ascii {
     overflow: hidden;
     bottom:0;
@@ -375,7 +375,7 @@ span.text-content {
     border:none;
     color:white;
     background: #300A24;
-    width: 400px;
+    width: 420px;
     display:block;
     margin-left: auto;
     margin-right: auto;
